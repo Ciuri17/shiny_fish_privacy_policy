@@ -3,7 +3,7 @@
 **App:** Shiny Fish (iOS and Android)
 **App identifier:** `com.mciurana.shinyfish`
 **Data controller / Developer:** Volcanic Internet
-**Contact:** dev@volcanicinternet.com
+**Contact:** ivan.sannicolas@volcanicinternet.com
 **Last updated:** 18 August 2026
 
 ## 1. Summary
@@ -24,25 +24,34 @@ technical and usage data from your device, as described in section 3.
 
 ## 2. Data stored on your device
 
-The app stores the following in local storage on the device itself. **This data is
-never transmitted, never leaves the device, and is not accessible to us:**
+The app stores the following in local storage on the device itself. **We never
+transmit it and it is not accessible to us:**
 
 - High score and number of games played
 - Badges/achievements and gameplay statistics
-- The **fish nickname** you type at the start (free text; it is not validated and
-  not transmitted — if you type your real name there, it still stays on your
-  device only)
+- The **fish nickname** you type at the start (free text; it is not validated. We
+  never send it anywhere — if you type your real name there, it stays on your
+  device, with the single exception noted just below)
 - Selected language
 - Sound preference (muted or not)
 - In-game coins, skins bought with in-game coins, and the equipped skin
 - A flag recording whether you purchased "remove ads"
 
+Two clarifications, so the paragraph above is not misleading:
+
+- The **score reached in a run** is included in the anonymous game-over event
+  described in section 3.3. Your stored high score, badges, coins and skins are
+  not sent anywhere.
+- If **you** tap **Share score**, the text you share contains your fish nickname
+  and that run's score (section 3.4). That is your own action; nothing on the
+  list above is ever transmitted by the app on its own.
+
 **How to delete it:**
 
-- **iOS:** delete the app (*Settings → General → iPhone Storage → Shiny Fish →
-  Delete App*).
-- **Android:** uninstall the app, or clear its data in *Settings → Apps → Shiny
-  Fish → Storage → Clear data*.
+- **iOS:** delete the app (_Settings → General → iPhone Storage → Shiny Fish →
+  Delete App_).
+- **Android:** uninstall the app, or clear its data in _Settings → Apps → Shiny
+  Fish → Storage → Clear data_.
 
 Either action permanently and irreversibly deletes everything listed above,
 including your high score.
@@ -51,9 +60,10 @@ including your high score.
 
 ### 3.1 Advertising — Google AdMob
 
-The free version of the game shows a banner in the menus and, optionally, a
-rewarded video that the player **chooses** to watch in exchange for an extra
-life. Ads are served by **Google AdMob** on both iOS and Android.
+The free version of the game shows a banner at the bottom of the screen in the
+menus (main menu, game-over, badges and shop screens — never during a run) and,
+optionally, a rewarded video that the player **chooses** to watch in exchange for
+an extra life. Ads are served by **Google AdMob** on both iOS and Android.
 
 To serve and measure ads, Google's SDK may process:
 
@@ -74,10 +84,10 @@ Google processes this data under its own responsibility, in order to serve ads
 
 - **iOS:** the app asks for permission through **App Tracking Transparency
   (ATT)**. If you decline, your IDFA is not used for tracking and you will see
-  **non-personalised** ads. You can change this at any time in *Settings →
-  Privacy & Security → Tracking*.
-- **Android:** you can reset or opt out of ad personalisation in *Settings →
-  Google → Ads* ("Delete advertising ID" / "Opt out of Ads Personalisation").
+  **non-personalised** ads. You can change this at any time in _Settings →
+  Privacy & Security → Tracking_.
+- **Android:** you can reset or opt out of ad personalisation in _Settings →
+  Google → Ads_ ("Delete advertising ID" / "Opt out of Ads Personalisation").
 - **Remove ads:** with the optional in-app purchase, the app stops loading
   advertising altogether, so the ad SDK no longer requests ads.
 
@@ -112,7 +122,8 @@ builds **no advertising or cross-app profiles**.
 
 What is measured:
 
-- App/screen views and session counts
+- **App opens** (the game is a single screen, so this is one page view per
+  session — there is no per-screen or per-button tracking)
 - A **game-over event** containing only the cause of death (the type of obstacle)
   and the score reached
 - Derived technical information: device type, operating system, WebView/browser
@@ -121,6 +132,15 @@ What is measured:
 What is **not** measured: your fish nickname, any text you type, your contacts,
 your precise location, and any identifier that could single you out personally.
 Umami states that it does not store IP addresses and does not sell data.
+
+Two notes on scope:
+
+- Buying **"remove ads"** removes the advertising, but not this anonymous
+  analytics: it is unrelated to ads and is what tells us which versions and
+  languages need work.
+- On **iOS**, the analytics domain is declared as a tracking domain in the app's
+  privacy manifest, so if you decline the ATT prompt described in section 3.1 the
+  system blocks these analytics requests as well.
 
 Umami privacy information: https://umami.is/privacy
 
@@ -133,7 +153,11 @@ do not log it, and we do not know what you pick.
 ## 4. Internet connection and device permissions
 
 The app needs an internet connection to load ads, to check purchase status and to
-send the anonymous usage analytics described in section 3.3.
+send the anonymous usage analytics described in section 3.3. Because the game is
+funded by advertising, that connection is also required to start playing: without
+it, the app shows a "no connection" screen instead of the menu. This requirement
+no longer applies once you have bought "remove ads".
+
 Beyond network access — and the advertising identifier described in section 3.1 —
 the app requests **no** system permissions: it does not access your camera,
 microphone, contacts, photos, files, calendar, health data or GPS.
@@ -143,7 +167,7 @@ microphone, contacts, photos, files, calendar, health data or GPS.
 Shiny Fish is **not specifically directed to children under 13** and we do not
 knowingly collect personal data from children. If a parent or guardian believes a
 child has provided data through the third-party services above, they may contact
-us at dev@volcanicinternet.com and can also manage ad personalisation and
+us at ivan.sannicolas@volcanicinternet.com and can also manage ad personalisation and
 tracking in the device settings.
 
 ## 6. No sale of data; international transfers
@@ -170,7 +194,7 @@ declare.
 ## 8. Your rights
 
 You may exercise your rights of access, rectification, erasure, objection,
-restriction and portability by writing to **dev@volcanicinternet.com**. Because we
+restriction and portability by writing to **ivan.sannicolas@volcanicinternet.com**. Because we
 hold no user accounts and no identifier linking you to us, in practice complete
 deletion of your game data is achieved by **deleting the app** from your device.
 For data processed by Apple, Google, RevenueCat or Umami, please also contact them
@@ -184,4 +208,4 @@ URL, with the "Last updated" date shown at the top.
 
 ## 10. Contact
 
-Privacy questions or requests: **dev@volcanicinternet.com**
+Privacy questions or requests: **ivan.sannicolas@volcanicinternet.com**

@@ -12,14 +12,15 @@ Shiny Fish is a casual game available on the App Store and Google Play. **It
 requires no registration, no account and no sign-in.** We never ask for your real
 name, email address, phone number or location.
 
-As the developer we **do not collect or store any personal data on our own
-servers** — there is no game server and no player database. All of your progress
-is stored **only on your device**.
+There is no game server, no player account and no player database of our own, and
+we do not ask you to identify yourself in any way. All of your game progress is
+stored **only on your device**.
 
-The app does rely on two third-party services needed to fund and operate it:
-**Google AdMob** (advertising) and **RevenueCat**, together with **Apple's App
-Store** and **Google Play** (the optional "remove ads" purchase). Those services
-may collect technical data from your device, as described in section 3.
+The app does rely on third-party services needed to fund, operate and improve it:
+**Google AdMob** (advertising), **RevenueCat** together with **Apple's App Store**
+and **Google Play** (the optional "remove ads" purchase), and **Umami**
+(privacy-focused, cookieless usage analytics). These services may collect
+technical and usage data from your device, as described in section 3.
 
 ## 2. Data stored on your device
 
@@ -103,7 +104,27 @@ with your Apple ID or Google account, so that your ad-free version can be
 restored on a new device or after reinstalling. Apple requires this option to be
 available, and it works without any account with us.
 
-### 3.3 Sharing your score
+### 3.3 Usage analytics — Umami
+
+To understand how the game is played and where it can be improved, the app uses
+**Umami Cloud**, a privacy-focused analytics service that uses **no cookies** and
+builds **no advertising or cross-app profiles**.
+
+What is measured:
+
+- App/screen views and session counts
+- A **game-over event** containing only the cause of death (the type of obstacle)
+  and the score reached
+- Derived technical information: device type, operating system, WebView/browser
+  version, language, and an approximate country or region
+
+What is **not** measured: your fish nickname, any text you type, your contacts,
+your precise location, and any identifier that could single you out personally.
+Umami states that it does not store IP addresses and does not sell data.
+
+Umami privacy information: https://umami.is/privacy
+
+### 3.4 Sharing your score
 
 The share button uses the operating system's native share sheet, or the
 clipboard. **You** send the text, to the app you choose. We are not involved, we
@@ -111,7 +132,8 @@ do not log it, and we do not know what you pick.
 
 ## 4. Internet connection and device permissions
 
-The app needs an internet connection to load ads and to check purchase status.
+The app needs an internet connection to load ads, to check purchase status and to
+send the anonymous usage analytics described in section 3.3.
 Beyond network access — and the advertising identifier described in section 3.1 —
 the app requests **no** system permissions: it does not access your camera,
 microphone, contacts, photos, files, calendar, health data or GPS.
@@ -127,8 +149,8 @@ tracking in the device settings.
 ## 6. No sale of data; international transfers
 
 **We do not sell or rent personal data to anyone.** We do not share data with any
-third party beyond the strictly necessary providers named in section 3 (Google,
-RevenueCat, Apple), which act under their own privacy policies and may process
+third party beyond the providers named in section 3 (Google, RevenueCat, Apple,
+Umami), which act under their own privacy policies and may process
 data on servers outside the European Economic Area, under the safeguards they
 declare.
 
@@ -141,6 +163,9 @@ declare.
   settings on Android), which you can withdraw at any time in system settings.
 - Purchase data is retained for as long as needed to restore your purchase and to
   meet the stores' accounting and tax obligations.
+- Anonymous, cookieless usage analytics (section 3.3) rely on our legitimate
+  interest in measuring and improving the game; the data is aggregated and is not
+  used to identify individual players.
 
 ## 8. Your rights
 
@@ -148,7 +173,7 @@ You may exercise your rights of access, rectification, erasure, objection,
 restriction and portability by writing to **dev@volcanicinternet.com**. Because we
 hold no user accounts and no identifier linking you to us, in practice complete
 deletion of your game data is achieved by **deleting the app** from your device.
-For data processed by Apple, Google or RevenueCat, please also contact them
+For data processed by Apple, Google, RevenueCat or Umami, please also contact them
 through the links in section 3.
 
 ## 9. Changes to this policy

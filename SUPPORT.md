@@ -1,177 +1,211 @@
-# Shiny Fish — Support
+# Privacy Policy — Shiny Fish
 
-Shiny Fish is a casual one-tap arcade game: tap to swim, dodge the obstacles and
-push your record as far as you can — 5,000 m gets your fish home. This page is the
-official support page for the app on the App Store and Google Play.
-
+**App:** Shiny Fish (iOS and Android)
+**App identifier:** `com.mciurana.shinyfish`
+**Data controller / Developer:** Volcanic Internet
 **Contact:** ivan.sannicolas@volcanicinternet.com
-We read every message and normally reply within a few business days.
-
-**Privacy Policy:**
-https://github.com/Ciuri17/shiny_fish_privacy_policy/blob/main/PRIVACY-POLICY.md
-
 **Last updated:** 18 August 2026
 
----
+## 1. Summary
 
-## Reporting a problem
+Shiny Fish is a casual game available on the App Store and Google Play. **It
+requires no registration, no account and no sign-in.** We never ask for your real
+name, email address, phone number or location.
 
-Email **ivan.sannicolas@volcanicinternet.com** and include as much of this as you can — it is
-usually the difference between a quick fix and a long exchange:
+There is no game server, no player account and no player database of our own, and
+we do not ask you to identify yourself in any way. All of your game progress is
+stored **only on your device**.
 
-- Device model (e.g. iPhone 14, Pixel 7)
-- Operating system version (e.g. iOS 18.4, Android 15)
-- App version (as shown on the store listing you installed from)
-- Game language
-- What you were doing when it happened, and what you expected instead
-- A screenshot or screen recording, if you can
+The app does rely on third-party services needed to fund, operate and improve it:
+**Google AdMob** (advertising), **RevenueCat** together with **Apple's App Store**
+and **Google Play** (the optional "remove ads" purchase), and **Umami**
+(privacy-focused, cookieless usage analytics). These services may collect
+technical and usage data from your device, as described in section 3.
 
----
+## 2. Data stored on your device
 
-## Frequently asked questions
+The app stores the following in local storage on the device itself. **We never
+transmit it and it is not accessible to us:**
 
-### The game asks for an internet connection before letting me play
+- High score and number of games played
+- Badges/achievements and gameplay statistics
+- The **fish nickname** you type at the start (free text; it is not validated. We
+  never send it anywhere — if you type your real name there, it stays on your
+  device, with the single exception noted just below)
+- Selected language
+- Sound preference (muted or not)
+- In-game coins, skins bought with in-game coins, and the equipped skin
+- A flag recording whether you purchased "remove ads"
 
-Shiny Fish is free and funded by advertising, so it checks for a connection at
-startup. If you see the "no connection" screen, enable Wi-Fi or mobile data and
-tap **Retry**. Airplane mode will keep you on that screen.
+Two clarifications, so the paragraph above is not misleading:
 
-The same screen can also come back later if you lose connection while you are in
-the menus. It never interrupts a run in progress — the check happens again once
-the run ends.
+- The **score reached in a run** is included in the anonymous game-over event
+  described in section 3.3. Your stored high score, badges, coins and skins are
+  not sent anywhere.
+- If **you** tap **Share score**, the text you share contains your fish nickname
+  and that run's score (section 3.4). That is your own action; nothing on the
+  list above is ever transmitted by the app on its own.
 
-If you have bought **Remove ads**, this check no longer applies.
+**How to delete it:**
 
-### Where do the ads appear?
+- **iOS:** delete the app (_Settings → General → iPhone Storage → Shiny Fish →
+  Delete App_).
+- **Android:** uninstall the app, or clear its data in _Settings → Apps → Shiny
+  Fish → Storage → Clear data_.
 
-There is a banner at the bottom of the screen in the menus — main menu, game-over,
-badges and shop — and it is **never** shown while you are playing. The only other
-ad is the rewarded video you can choose to watch for an extra life.
+Either action permanently and irreversibly deletes everything listed above,
+including your high score.
 
-### How does the extra life work?
+## 3. Third-party services
 
-When you crash, you may be offered an extra life in exchange for watching a short
-rewarded video. It is entirely optional, and it can be used **once per run**.
+### 3.1 Advertising — Google AdMob
 
-If the button shows "Loading ad…" and then goes back to its normal state, no video
-was available at that moment (this happens from time to time and is normal). Play
-another round and try again.
+The free version of the game shows a banner at the bottom of the screen in the
+menus (main menu, game-over, badges and shop screens — never during a run) and,
+optionally, a rewarded video that the player **chooses** to watch in exchange for
+an extra life. Ads are served by **Google AdMob** on both iOS and Android.
 
-If you have bought **Remove ads**, the button reads just **Extra life** and grants
-it immediately, with no video.
+To serve and measure ads, Google's SDK may process:
 
-### How do I remove the ads?
+- The device **advertising identifier** (IDFA on iOS / Advertising ID on Android)
+- The **IP address** (from which an approximate, city- or region-level location
+  can be inferred)
+- Technical device information (model, operating system, language, app version)
+- Ad interactions (impressions, clicks, whether a rewarded video was watched in
+  full)
 
-Open the **Shop** (the Shop button in the main menu or on the game-over screen)
-and use the **Remove ads** button at the bottom. It is a **one-time,
-non-consumable purchase** — not a subscription, and there is nothing to cancel.
-Once it goes through, the banner disappears and no further ads are loaded.
+Google processes this data under its own responsibility, in order to serve ads
+(personalised or non-personalised), measure them, and prevent ad fraud.
 
-### I paid to remove ads but the ads are still there
+- How Google uses data: https://policies.google.com/technologies/partner-sites
+- Google Privacy Policy: https://policies.google.com/privacy
 
-Open the **Shop** and tap **Restore purchases**. Make sure you are signed in with
-the **same Apple ID (or Google account)** you used for the purchase, then restart
-the app. If the ads still show, email us with the date of the purchase and the
-store you bought it from.
+**Your controls:**
 
-### I have a new phone — do I keep my purchase and my progress?
+- **iOS:** the app asks for permission through **App Tracking Transparency
+  (ATT)**. If you decline, your IDFA is not used for tracking and you will see
+  **non-personalised** ads. You can change this at any time in _Settings →
+  Privacy & Security → Tracking_.
+- **Android:** you can reset or opt out of ad personalisation in _Settings →
+  Google → Ads_ ("Delete advertising ID" / "Opt out of Ads Personalisation").
+- **Remove ads:** with the optional in-app purchase, the app stops loading
+  advertising altogether, so the ad SDK no longer requests ads.
 
-- **Your purchase: yes.** Install the app, sign in with the same Apple ID or
-  Google account and tap **Restore purchases** in the Shop.
-- **Your progress: no.** Scores, badges, coins and skins are stored only on the
-  device, and the game has no cloud save or account system, so a new device starts
-  fresh.
+### 3.2 In-app purchase — RevenueCat + App Store / Google Play
 
-### I was charged but nothing happened
+"Remove ads" is a one-time, **non-consumable** purchase. Payment is processed
+entirely by **Apple** (iOS) or **Google Play** (Android). We **never see, receive
+or store any payment data** — no card number, no billing address, no name.
 
-Purchases are processed entirely by Apple or Google — we never see your payment
-details and we cannot issue refunds ourselves.
+To validate the purchase and allow you to restore it, the app uses
+**RevenueCat**, which processes:
 
-- **iOS:** https://reportaproblem.apple.com
-- **Android:** https://support.google.com/googleplay/answer/2479637
+- An **anonymous user identifier** generated by its SDK (not linked to your name
+  or email address)
+- The store-issued **transaction receipt/token** and the resulting entitlement
+  status (`remove_ads`: active or not)
+- Basic technical device and app-version information
 
-Tap **Restore purchases** first: in most cases the purchase went through and only
-needs to be restored. If it does not, write to us and we will help you gather what
-the store needs.
+Privacy policies: RevenueCat — https://www.revenuecat.com/privacy · Apple —
+https://www.apple.com/legal/privacy/ · Google — https://policies.google.com/privacy
 
-### My record, badges or coins disappeared
+The **"Restore purchases"** button asks the store which purchases are associated
+with your Apple ID or Google account, so that your ad-free version can be
+restored on a new device or after reinstalling. Apple requires this option to be
+available, and it works without any account with us.
 
-Everything you have unlocked is stored locally on the device. Deleting the app,
-clearing its data, or resetting the phone wipes it permanently, and there is no
-backup we can restore from. Only the "remove ads" purchase can be recovered, via
-**Restore purchases** in the Shop.
+### 3.3 Usage analytics — Umami
 
-### How do I earn coins and buy skins?
+To understand how the game is played and where it can be improved, the app uses
+**Umami Cloud**, a privacy-focused analytics service that uses **no cookies** and
+builds **no advertising or cross-app profiles**.
 
-Coins are the golden pickups you collect during a run. They are **in-game coins
-only** — there is no way to buy them with real money, and the only real purchase in
-the game is "remove ads". Spend them in the **Shop**, where each fish skin costs
-150 coins; you can preview any skin before buying it, and once bought you can
-switch between the ones you own for free.
+What is measured:
 
-### Does the game have an ending?
+- **App opens** (the game is a single screen, so this is one page view per
+  session — there is no per-screen or per-button tracking)
+- A **game-over event** containing only the cause of death (the type of obstacle)
+  and the score reached
+- Derived technical information: device type, operating system, WebView/browser
+  version, language, and an approximate country or region
 
-Yes. Reach **5,000 m** and your fish makes it home — you get the "Home, sweet
-home!" screen with all its friends waiting. There are also **25 badges** to unlock
-along the way. After the ending you can keep playing as much as you like.
+What is **not** measured: your fish nickname, any text you type, your contacts,
+your precise location, and any identifier that could single you out personally.
+Umami states that it does not store IP addresses and does not sell data.
 
-### How do I change the language?
+Two notes on scope:
 
-Use the language selector at the bottom of the naming, menu, pause and game-over
-screens. Shiny Fish is available in Catalan, Spanish, English, French, Chinese,
-Japanese, Hindi and Portuguese.
+- Buying **"remove ads"** removes the advertising, but not this anonymous
+  analytics: it is unrelated to ads and is what tells us which versions and
+  languages need work.
+- On **iOS**, the analytics domain is declared as a tracking domain in the app's
+  privacy manifest, so if you decline the ATT prompt described in section 3.1 the
+  system blocks these analytics requests as well.
 
-### How do I mute the sound?
+Umami privacy information: https://umami.is/privacy
 
-Tap the speaker button in the main menu or in the pause screen. Your choice is
-remembered for future sessions.
+### 3.4 Sharing your score
 
-### How do I change my fish's name?
+The share button uses the operating system's native share sheet, or the
+clipboard. **You** send the text, to the app you choose. We are not involved, we
+do not log it, and we do not know what you pick.
 
-The nickname you enter the first time you open the game is kept on your device and
-is only used in the on-screen greeting and in the text you send if you tap **Share
-score**. To choose a different one, delete the app and install it again — note that
-this also erases your record, badges, coins and skins (see above).
+## 4. Internet connection and device permissions
 
-### Can I delete my data?
+The app needs an internet connection to load ads, to check purchase status and to
+send the anonymous usage analytics described in section 3.3. Because the game is
+funded by advertising, that connection is also required to start playing: without
+it, the app shows a "no connection" screen instead of the menu. This requirement
+no longer applies once you have bought "remove ads".
 
-Yes, and you don't need to ask us — we hold no account for you.
+Beyond network access — and the advertising identifier described in section 3.1 —
+the app requests **no** system permissions: it does not access your camera,
+microphone, contacts, photos, files, calendar, health data or GPS.
 
-- **iOS:** _Settings → General → iPhone Storage → Shiny Fish → Delete App_
-- **Android:** uninstall the app, or _Settings → Apps → Shiny Fish → Storage →
-  Clear data_
+## 5. Children
 
-This removes everything the game stored locally, permanently.
+Shiny Fish is **not specifically directed to children under 13** and we do not
+knowingly collect personal data from children. If a parent or guardian believes a
+child has provided data through the third-party services above, they may contact
+us at ivan.sannicolas@volcanicinternet.com and can also manage ad personalisation and
+tracking in the device settings.
 
-### How do I get non-personalised ads?
+## 6. No sale of data; international transfers
 
-- **iOS:** _Settings → Privacy & Security → Tracking_ — turn off tracking for
-  Shiny Fish.
-- **Android:** _Settings → Google → Ads_ — delete your advertising ID or opt out
-  of ads personalisation.
+**We do not sell or rent personal data to anyone.** We do not share data with any
+third party beyond the providers named in section 3 (Google, RevenueCat, Apple,
+Umami), which act under their own privacy policies and may process
+data on servers outside the European Economic Area, under the safeguards they
+declare.
 
-Full detail on what the ad, purchase and analytics providers process is in the
-[Privacy Policy](https://github.com/Ciuri17/shiny_fish_privacy_policy/blob/main/PRIVACY-POLICY.md).
+## 7. Legal basis and retention (GDPR)
 
-### Does buying "Remove ads" stop all data collection?
+- Data stored on the device (section 2) is necessary for the game to function and
+  is kept until you delete the app or clear its data.
+- **Non-personalised** advertising relies on our legitimate interest in funding a
+  free game; **personalised** advertising relies on your consent (ATT on iOS / ad
+  settings on Android), which you can withdraw at any time in system settings.
+- Purchase data is retained for as long as needed to restore your purchase and to
+  meet the stores' accounting and tax obligations.
+- Anonymous, cookieless usage analytics (section 3.3) rely on our legitimate
+  interest in measuring and improving the game; the data is aggregated and is not
+  used to identify individual players.
 
-It removes the advertising, and with it everything the ad SDK would collect. The
-game still sends the anonymous, cookieless usage analytics described in the
-[Privacy Policy](https://github.com/Ciuri17/shiny_fish_privacy_policy/blob/main/PRIVACY-POLICY.md)
-(app opens plus a game-over event with the cause of death and the score) — no
-nickname, no account, nothing that identifies you.
+## 8. Your rights
 
-### Is the game suitable for children?
+You may exercise your rights of access, rectification, erasure, objection,
+restriction and portability by writing to **ivan.sannicolas@volcanicinternet.com**. Because we
+hold no user accounts and no identifier linking you to us, in practice complete
+deletion of your game data is achieved by **deleting the app** from your device.
+For data processed by Apple, Google, RevenueCat or Umami, please also contact them
+through the links in section 3.
 
-Shiny Fish has no violent content, no chat and no user-generated content, but it
-does show third-party advertising and offers an in-app purchase, and it is not
-specifically directed to children under 13. Parents can disable purchases and
-manage ad tracking through the device's parental controls and privacy settings.
+## 9. Changes to this policy
 
----
+We may update this policy as the app evolves (for example, if new features or
+providers are added). The version in force is always the one published at this
+URL, with the "Last updated" date shown at the top.
 
-## Feature requests
+## 10. Contact
 
-Ideas for new fish, obstacles, badges or languages are welcome at
-**ivan.sannicolas@volcanicinternet.com**. We can't promise everything, but we do read all of
-them.
+Privacy questions or requests: **ivan.sannicolas@volcanicinternet.com**

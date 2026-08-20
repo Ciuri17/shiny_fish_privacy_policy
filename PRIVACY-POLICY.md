@@ -4,7 +4,7 @@
 **App identifier:** `com.mciurana.shinyfish`
 **Data controller / Developer:** Volcanic Internet
 **Contact:** ivan.sannicolas@volcanicinternet.com
-**Last updated:** 18 August 2026
+**Last updated:** 20 August 2026
 
 ## 1. Summary
 
@@ -61,9 +61,10 @@ including your high score.
 ### 3.1 Advertising — Google AdMob
 
 The free version of the game shows a banner at the bottom of the screen in the
-menus (main menu, game-over, badges and shop screens — never during a run) and,
-optionally, a rewarded video that the player **chooses** to watch in exchange for
-an extra life. Ads are served by **Google AdMob** on both iOS and Android.
+menus (main menu, pause, game-over, badges, shop and settings screens — **never
+during a run**) and, optionally, a rewarded video that the player **chooses** to
+watch in exchange for an extra life. Ads are served by **Google AdMob** on both
+iOS and Android.
 
 To serve and measure ads, Google's SDK may process:
 
@@ -82,14 +83,25 @@ Google processes this data under its own responsibility, in order to serve ads
 
 **Your controls:**
 
-- **iOS:** the app asks for permission through **App Tracking Transparency
+- **Consent (EEA / UK):** if you are in the European Economic Area or the United
+  Kingdom, the app shows Google's certified consent form (**UMP**) the first time
+  you open it, where you choose whether your data may be used for personalised
+  advertising. Your choice is stored by Google's SDK on the device.
+- **Changing or withdrawing that consent, at any time:** open **Settings** in the
+  game (the gear button on the main menu, pause and game-over screens) and tap
+  **Privacy and ads**. That reopens the same form, so you can change any option
+  or withdraw your consent. The button appears whenever the consent framework
+  requires it.
+- **iOS:** the app also asks for permission through **App Tracking Transparency
   (ATT)**. If you decline, your IDFA is not used for tracking and you will see
   **non-personalised** ads. You can change this at any time in _Settings →
   Privacy & Security → Tracking_.
 - **Android:** you can reset or opt out of ad personalisation in _Settings →
   Google → Ads_ ("Delete advertising ID" / "Opt out of Ads Personalisation").
 - **Remove ads:** with the optional in-app purchase, the app stops loading
-  advertising altogether, so the ad SDK no longer requests ads.
+  advertising altogether, so the ad SDK no longer requests ads — and, because
+  there is nothing left to consent to, neither the consent form nor the privacy
+  button is shown.
 
 ### 3.2 In-app purchase — RevenueCat + App Store / Google Play
 
@@ -183,8 +195,11 @@ declare.
 - Data stored on the device (section 2) is necessary for the game to function and
   is kept until you delete the app or clear its data.
 - **Non-personalised** advertising relies on our legitimate interest in funding a
-  free game; **personalised** advertising relies on your consent (ATT on iOS / ad
-  settings on Android), which you can withdraw at any time in system settings.
+  free game; **personalised** advertising relies on **your consent**, collected in
+  the EEA and the UK through Google's certified consent management platform (UMP)
+  and, on iOS, through the ATT prompt. You can withdraw it at any time from
+  **Settings → Privacy and ads** inside the game, or in your device's system
+  settings (section 3.1).
 - Purchase data is retained for as long as needed to restore your purchase and to
   meet the stores' accounting and tax obligations.
 - Anonymous, cookieless usage analytics (section 3.3) rely on our legitimate

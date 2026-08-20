@@ -10,7 +10,7 @@ We read every message and normally reply within a few business days.
 **Privacy Policy:**
 https://github.com/Ciuri17/shiny_fish_privacy_policy/blob/main/PRIVACY-POLICY.md
 
-**Last updated:** 18 August 2026
+**Last updated:** 20 August 2026
 
 ---
 
@@ -44,9 +44,10 @@ If you have bought **Remove ads**, this check no longer applies.
 
 ### Where do the ads appear?
 
-There is a banner at the bottom of the screen in the menus — main menu, game-over,
-badges and shop — and it is **never** shown while you are playing. The only other
-ad is the rewarded video you can choose to watch for an extra life.
+There is a banner at the bottom of the screen in the menus — main menu, pause,
+game-over, badges, shop and settings — and it is **never** shown while you are
+playing. The only other ad is the rewarded video you can choose to watch for an
+extra life.
 
 ### How does the extra life work?
 
@@ -62,22 +63,22 @@ it immediately, with no video.
 
 ### How do I remove the ads?
 
-Open the **Shop** (the Shop button in the main menu or on the game-over screen)
-and use the **Remove ads** button at the bottom. It is a **one-time,
+Open **Settings** — the gear button on the main menu, the pause screen or the
+game-over screen — and use **Remove ads** under _Purchases_. It is a **one-time,
 non-consumable purchase** — not a subscription, and there is nothing to cancel.
 Once it goes through, the banner disappears and no further ads are loaded.
 
 ### I paid to remove ads but the ads are still there
 
-Open the **Shop** and tap **Restore purchases**. Make sure you are signed in with
-the **same Apple ID (or Google account)** you used for the purchase, then restart
-the app. If the ads still show, email us with the date of the purchase and the
-store you bought it from.
+Open **Settings** and tap **Restore purchases** (right below _Remove ads_). Make
+sure you are signed in with the **same Apple ID (or Google account)** you used for
+the purchase, then restart the app. If the ads still show, email us with the date
+of the purchase and the store you bought it from.
 
 ### I have a new phone — do I keep my purchase and my progress?
 
 - **Your purchase: yes.** Install the app, sign in with the same Apple ID or
-  Google account and tap **Restore purchases** in the Shop.
+  Google account and tap **Restore purchases** in **Settings**.
 - **Your progress: no.** Scores, badges, coins and skins are stored only on the
   device, and the game has no cloud save or account system, so a new device starts
   fresh.
@@ -90,16 +91,16 @@ details and we cannot issue refunds ourselves.
 - **iOS:** https://reportaproblem.apple.com
 - **Android:** https://support.google.com/googleplay/answer/2479637
 
-Tap **Restore purchases** first: in most cases the purchase went through and only
-needs to be restored. If it does not, write to us and we will help you gather what
-the store needs.
+Tap **Restore purchases** in **Settings** first: in most cases the purchase went
+through and only needs to be restored. If it does not, write to us and we will
+help you gather what the store needs.
 
 ### My record, badges or coins disappeared
 
 Everything you have unlocked is stored locally on the device. Deleting the app,
 clearing its data, or resetting the phone wipes it permanently, and there is no
 backup we can restore from. Only the "remove ads" purchase can be recovered, via
-**Restore purchases** in the Shop.
+**Restore purchases** in **Settings**.
 
 ### How do I earn coins and buy skins?
 
@@ -115,16 +116,23 @@ Yes. Reach **5,000 m** and your fish makes it home — you get the "Home, sweet
 home!" screen with all its friends waiting. There are also **25 badges** to unlock
 along the way. After the ending you can keep playing as much as you like.
 
+### Where are the settings?
+
+Tap the **gear button**, available on the main menu, the pause screen and the
+game-over screen. Everything you can configure lives there: language, sound,
+"Remove ads" / "Restore purchases", and privacy options.
+
 ### How do I change the language?
 
-Use the language selector at the bottom of the naming, menu, pause and game-over
-screens. Shiny Fish is available in Catalan, Spanish, English, French, Chinese,
-Japanese, Hindi and Portuguese.
+Open **Settings → Language**. The very first screen — where you name your fish —
+also has a language picker, so you can switch straight away if the game starts in
+a language you don't read. Shiny Fish is available in Catalan, Spanish, English,
+French, Chinese, Japanese, Hindi and Portuguese.
 
 ### How do I mute the sound?
 
-Tap the speaker button in the main menu or in the pause screen. Your choice is
-remembered for future sessions.
+Open **Settings → Sound** and tap the speaker button. Your choice is remembered
+for future sessions.
 
 ### How do I change my fish's name?
 
@@ -142,6 +150,15 @@ Yes, and you don't need to ask us — we hold no account for you.
   Clear data_
 
 This removes everything the game stored locally, permanently.
+
+### How do I change my advertising consent choices? (Europe / UK)
+
+If you are in the European Economic Area or the United Kingdom, the game shows
+Google's consent form the first time you open it. To change your answers or
+withdraw your consent later, open **Settings → Privacy and ads** — that reopens
+the same form. The button is shown whenever the consent rules require it, and it
+does not appear if you have bought **Remove ads** (with no ads there is nothing to
+consent to).
 
 ### How do I get non-personalised ads?
 
